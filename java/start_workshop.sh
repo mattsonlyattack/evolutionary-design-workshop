@@ -10,7 +10,7 @@ readonly DEFAULT_ITERATION_NUMBER=1
 function main
 {
   check_command_exists "git" "Git command line tool is not installed in your computer. You need to install it."
-  check_command_exists "java" "Python3 is not installed in your computer. You need to install it."
+  check_command_exists "java" "Java is not installed in your computer. You need to install it."
   iteration_number=${1:-$DEFAULT_ITERATION_NUMBER}
 
   set -o errexit
